@@ -1,0 +1,38 @@
+# Object Oriented Programming in Python
+
+print(type("hello"))
+
+Output: <class 'str'>
+This is because "hello" is an object of a string
+
+x = 1 
+print(type(x))
+
+Output: <class 'int'>
+
+
+def hello():
+    print("hello")
+
+print(type(hello))
+
+Output: <class 'function'>
+
+This is known as built-in function 
+
+
+# KEY NOTES
+# self is passed as the first argument to every method of a class / This instance of a class
+# For example if the car is volvo, the self will be volvo
+# If the car is BMW, the self will become BMW
+
+# initializer is to set the initial attributes to the state of the object
+
+E.g:
+
+class Car:
+    def __init__(self, brand: str, fuel_type: str) -> None: #Return None
+    self.brand = brand
+    self.fuel_type = fuel_type
+
+volvo : Car = Car(brand="Volvo",fuel_type="Diesel") #This will be passed as the first argument which is self
