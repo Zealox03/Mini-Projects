@@ -2,22 +2,22 @@
 #and division between them.
 
 def addition(x,y):
-    print(x + y)
+    return(x + y)
     
 def subtraction(x,y):
-    print(x - y)
+    return(x - y)
     
 def multiplication(x,y):
-    print(x * y)
+    return(x * y)
     
 def division(x,y):
-    print(x / y)
+    return(x / y)
 
 def calculate():
-    addition(x,y)
-    subtraction(x,y)
-    multiplication(x,y)
-    division(x,y)
+    print("Addition: " + str(addition(x,y)))
+    print("Subtraction: " + str(subtraction(x,y)))
+    print("Multiplication: " + str(multiplication(x,y)))
+    print("Division: " + str(division(x,y)))
 
 x = float(input("Enter the first number: "))
 y = float(input("Enter the second number: "))
