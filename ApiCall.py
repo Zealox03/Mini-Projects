@@ -19,10 +19,13 @@ pokemon_name = input("Please insert pokemon name: ")
 pokemon_info = get_pokemon_info(pokemon_name)
 
 if pokemon_info:
-    print(f"ID      : {pokemon_info["id"]}")
-    print(f"Name    : {pokemon_info["name"]}")
-    print(f"Height  : {pokemon_info["height"]}")
-    print(f"Weight  : {pokemon_info["weight"]}")
+    print(f"ID          : {pokemon_info["id"]}")
+    print(f"Name        : {pokemon_info["name"].capitalize()}")
+    print(f"Height      : {pokemon_info["height"]}")
+    print(f"Weight      : {pokemon_info["weight"]}")
     
     types = [t['type']['name'] for t in pokemon_info['types']]
-    print(f"Types   : {', '.join(types)}")
+    print(f"Types       : {', '.join(types)}")
+
+    abilities = [a['ability']['name'] for a in pokemon_info['abilities']]
+    print(f"Abilities   : {', '.join(abilities)}")
