@@ -14,6 +14,7 @@ def division(x,y):
     return(x / y)
 
 def calculate():
+    #You cannot concatanate with int
     print("Addition: " + str(addition(x,y)))
     print("Subtraction: " + str(subtraction(x,y)))
     print("Multiplication: " + str(multiplication(x,y)))

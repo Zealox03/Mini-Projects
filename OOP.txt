@@ -1,0 +1,7 @@
+How OOP improves cybersecurity
+Encapsulation: Bundles data and methods within an object, protecting internal data from outside interference. This ensures data integrity by controlling access through public methods, making it harder for unauthorized users to tamper with sensitive information.
+Abstraction: Hides complex implementation details from the user and other parts of the system. This shields the internal workings from potential threats, reducing the number of vulnerabilities that can be exploited.
+Modularity: Structures software into self-contained, reusable objects or modules. This modular design contains the impact of a security breach to a single module, preventing widespread damage. It also makes it easier to implement and manage security controls at a granular level.
+Security Logging: Provides a framework for integrating security logging components directly into object-oriented systems. These components can record details like authentication attempts and suspicious activities, which is crucial for incident response.
+Error Handling: Allows for more robust and secure error handling by implementing error logging and management through specific classes or modules. This helps in quickly resolving issues and improving overall system reliability, while also considering security implications of the logs themselves.
+Development for Security: Provides a strong foundation for developing security tools, such as threat detection systems, by enabling a more structured and organized approach to representing data and relationships between entities. 
